@@ -6,7 +6,7 @@ const loadEventHandlers = () => {
     const colors = require('./UI/colors/colors');
 
    
-    const logSystem = (system, status = '✅') => {
+    const logSystem = (system, status = '') => {
         const timestamp = new Date().toLocaleTimeString();
         console.log(
             `${colors.gray}[${timestamp}]${colors.reset}`,
